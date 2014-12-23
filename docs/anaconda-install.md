@@ -62,7 +62,7 @@ At this point you should install `pip`, the standard Python package installer, i
 
 `$ conda install -n my_environment pip`
 
-You can install various scientific packages this way, such as `numpy`, `scipy`, and `pandas`. Please do so now.
+You can install various scientific packages this way, such as `numpy`, `scipy`, `pandas`, and `matplotlib`. Please do so now.
 
 Now you can enter your environment with this command:
 
