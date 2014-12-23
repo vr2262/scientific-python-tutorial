@@ -55,7 +55,7 @@ The instructions and IPython Notebooks in this tutorial are available at https:/
 
 An executable Python file is simply a text file with the extension `.py` that contains valid Python code. As such, a basic "hello world" program could look like this ([`hello.py`](hello.py)):
 
-```
+```python
 print 'Hello, World!'
 ```
 
@@ -73,22 +73,26 @@ The official Python style guide, known as [PEP 8](https://www.python.org/dev/pep
 
 - The first line should have a [shebang](http://en.wikipedia.org/wiki/Shebang_%28Unix%29) like so:
 
-  `#!/usr/bin/env python`
+  ```python
+  #!/usr/bin/env python
+  ```
 
 - The second line should declare the character encoding of the file. You should use UTF-8:
 
-  `# -*- coding: UTF-8 -*-`
+  ```python
+  # -*- coding: UTF-8 -*-
+  ```
 
 - Define units of functionality inside of functions:
 
-  ```
+  ```python
   def main():
       print 'Hello, World!'
   ```
 
 - Any code that should run when the Python file is executed should be inside a special conditional like so:
 
-  ```
+  ```python
   if __name__ == '__main__':
     main()
   ```
@@ -107,5 +111,66 @@ and run it as a shell script:
 
 ### Functions
 
-### Scripts
+In Python you define functions with the `def` keyword and provide a list of arguments. Function execution ends when one of these occurs:
 
+1. A `return` or `raise` statement completes.
+2. An unhandled exception occurs.
+3. The last statement in a function completes without a `return`. In this case, the output of the function is `None`.
+
+Example:
+
+```python
+def f(x, y):
+    z = 2 * x + y
+    if z > 5:
+        return x
+    else:
+        raise ValueError('The value of z is too small!')
+```
+
+You can now use the function `f` anywhere in the file like so:
+
+```python
+result = f(5, 10)
+```
+
+### Modules
+
+Functions, variables, and classes aren't exactly useful if you can't call them from outside the file in which they're defined. Here is the way the Python module system works (in brief).
+
+Let's say you have a directory structure like
+
+```
+top_module_1.py
+top_module_2.py
+other_module/
+  __init__.py
+  utils.py
+
+```
+
+In the file `top_module_1.py`, you can access objects from `top_module_2.py` in the following ways:
+
+```python
+import top_module_2
+top_module_2.top_function()
+
+import top_module_2 as tm2
+tm2.top_function()
+
+from top_module_2 import top_function
+top_function()
+```
+
+Because the `other_module` directory contains an `__init__.py` file, the Python interpreter knows to look there. You can access objects from the files in the `other_module` directory like so:
+
+```python
+import other_module.utils
+other_module.utils.other_function()
+
+import other_module.utils as u
+u.other_function()
+
+from other_module.utils import other_function
+other_function()
+```
