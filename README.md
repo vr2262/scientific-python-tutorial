@@ -6,7 +6,7 @@
 		- [A text editor](#a-text-editor)
 		- [Some way to share your code](#some-way-to-share-your-code)
 	- [Getting Started](#getting-started)
-		- [Scripts](#Scripts)
+		- [Scripts](#scripts)
 			- [Hello, World!](#hello-world)
 			- [Best Practices](#best-practices)
 		- [Functions](#functions)
