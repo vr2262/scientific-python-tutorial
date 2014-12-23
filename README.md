@@ -6,6 +6,11 @@
 		- [A text editor](#a-text-editor)
 		- [Some way to share your code](#some-way-to-share-your-code)
 	- [Getting Started](#getting-started)
+		- [Scripts](#Scripts)
+			- [Hello, World!](#hello-world)
+			- [Best Practices](#best-practices)
+		- [Functions](#functions)
+		- [Modules](#modules)
 
 Scientific Python Tutorial
 ==========================
@@ -44,7 +49,7 @@ The instructions and IPython Notebooks in this tutorial are available at https:/
 
 ## Getting Started
 
-### Scripts and Modules
+### Scripts
 
 #### Hello, World!
 
@@ -101,3 +106,6 @@ and run it as a shell script:
 `$ ./hello_improved.py`
 
 ### Functions
+
+### Scripts
+
