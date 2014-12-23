@@ -1,16 +1,16 @@
+**Table of Contents**
+
+- [Using the IPython Notebook](#using-the-ipython-notebook)
+	- [Getting Started](#getting-started)
+	- [Running the Notebook Server](#running-the-notebook-server)
+	- [Stopping the Notebook Server](#stopping-the-notebook-server)
+
 Using the IPython Notebook
 ==========================
 
 ## Getting Started
 
 You should have a virtual environment set up. Check [the README](README.md) and [the Anaconda guide](docs/anaconda-install.md). Install IPython in your environment if you haven't already.
-
-**Table of Contents**
-
-- [Using the IPython Notebook](#)
-	- [Getting Started](#)
-	- [Running the Notebook Server](#)
-	- [Stopping the Notebook Server](#)
 
 ## Running the Notebook Server
 

@@ -1,16 +1,16 @@
+**Table of Contents**
+
+- [Scientific Python Tutorial](#scientific-python-tutorial)
+	- [Prerequisites](#prerequisites)
+		- [A Python environment](#a-python-environment)
+		- [A text editor](#a-text-editor)
+		- [Some way to share your code](#some-way-to-share-your-code)
+	- [Getting Started](#getting-started)
+
 Scientific Python Tutorial
 ==========================
 
 An introduction to getting Python up and running, with an emphasis on sharable scientific code.
-
-**Table of Contents**
-
-- [Scientific Python Tutorial](#)
-	- [Prerequisites](#)
-		- [A Python environment](#)
-		- [A text editor](#)
-		- [Some way to share your code](#)
-	- [Getting Started](#)
 
 ## Prerequisites
 
