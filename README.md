@@ -3,6 +3,15 @@ Scientific Python Tutorial
 
 An introduction to getting Python up and running, with an emphasis on sharable scientific code.
 
+**Table of Contents*
+
+- [Scientific Python Tutorial](#)
+	- [Prerequisites](#)
+		- [A Python environment](#)
+		- [A text editor](#)
+		- [Some way to share your code](#)
+	- [Getting Started](#)
+
 ## Prerequisites
 
 ### A Python environment
@@ -29,7 +38,7 @@ This tutorial will make use of the [IPython Notebook](http://ipython.org/noteboo
 
 These days most people (myself incldued) prefer to host open source software and information on GitHub. GitHub provides you with a remote [Git](http://en.wikipedia.org/wiki/Git_%28software%29) repository and a web interface that makes it easy to distribute and manage your code.
   
-In addition, [nbviewer](nbviewer.ipython.org) provides a convenient way to share IPython Notebooks online.
+In addition, [nbviewer](http://nbviewer.ipython.org) provides a convenient way to share IPython Notebooks online.
   
 The instructions and IPython Notebooks in this tutorial are available at https://github.com/vr2262/scientific-python-tutorial and http://nbviewer.ipython.org/github/vr2262/scientific-python-tutorial/tree/master/
 

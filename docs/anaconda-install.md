@@ -3,6 +3,17 @@ Installing Anaconda
 
 This tutorial assumes you will be using a Linux distribution, but includes Mac and Windows instructions as well.
 
+**Table of Contents**
+
+- [Installing Anaconda](#)
+	- [Download](#)
+	- [Install](#)
+		- [Linux](#)
+		- [Mac](#)
+		- [Windows](#)
+	- [Check your installation](#)
+	- [Create a virtual environment](#)
+
 ## Download
 
 Go to http://continuum.io/downloads and download the Python 2.7 installer for your operating system.

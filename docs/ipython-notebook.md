@@ -5,6 +5,13 @@ Using the IPython Notebook
 
 You should have a virtual environment set up. Check [the README](README.md) and [the Anaconda guide](docs/anaconda-install.md). Install IPython in your environment if you haven't already.
 
+**Table of Contents**
+
+- [Using the IPython Notebook](#)
+	- [Getting Started](#)
+	- [Running the Notebook Server](#)
+	- [Stopping the Notebook Server](#)
+
 ## Running the Notebook Server
 
 Enter your virtual environment. Your command line prompt should include `(your-environment-name)`. Now run this command:
