@@ -174,3 +174,7 @@ u.other_function()
 from other_module.utils import other_function
 other_function()
 ```
+
+## The IPython Notebook
+
+Working IPython notebook examples are in the [ipython-notebooks](ipython-notebooks) directory.
