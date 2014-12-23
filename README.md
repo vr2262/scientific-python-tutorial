@@ -44,4 +44,60 @@ The instructions and IPython Notebooks in this tutorial are available at https:/
 
 ## Getting Started
 
+### Scripts and Modules
 
+#### Hello, World!
+
+An executable Python file is simply a text file with the extension `.py` that contains valid Python code. As such, a basic "hello world" program could look like this ([`hello.py`](hello.py)):
+
+```
+print 'Hello, World!'
+```
+
+You can run this program with the command...
+
+`$ python hello.py`
+
+which will print to `stdout`:
+
+`Hello, World!`
+
+#### Best Practices
+
+The official Python style guide, known as [PEP 8](https://www.python.org/dev/peps/pep-0008/), contains many suggestions about coding and organizational conventions for Python code. Here are some best practices for a Python script ([`hello_improved.py`](hello_improved.py)):
+
+- The first line should have a [shebang](http://en.wikipedia.org/wiki/Shebang_%28Unix%29) like so:
+
+  `#!/usr/bin/env python`
+
+- The second line should declare the character encoding of the file. You should use UTF-8:
+
+  `# -*- coding: UTF-8 -*-`
+
+- Define units of functionality inside of functions:
+
+  ```
+  def main():
+      print 'Hello, World!'
+  ```
+
+- Any code that should run when the Python file is executed should be inside a special conditional like so:
+
+  ```
+  if __name__ == '__main__':
+    main()
+  ```
+
+You can now run the script `hello_improved.py` as before...
+
+`$ python hello_improved.py`
+
+or you can make the file executable...
+
+`$ chmod +x hello_improved.py`
+
+and run it as a shell script:
+
+`$ ./hello_improved.py`
+
+### Functions
