@@ -11,7 +11,7 @@
 			- [Best Practices](#best-practices)
 		- [Functions](#functions)
 		- [Modules](#modules)
-	- [IPython Notebooks](#ipython-notebooks)
+	- [The IPython Notebook](#the-ipython-notebook)
 
 Scientific Python Tutorial
 ==========================
